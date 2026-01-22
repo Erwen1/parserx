@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Build / packaging artifacts
+build/
+dist/
+*.spec
+
+# Local outputs / scratch
+_cli_retest_out/
+_cli_flow_overview.txt
+_cli_parsing_log.json
+_pdf_export_smoke_test.pdf
+
+# OS/editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets / keys (never commit)
+*.pem
+*.key
+*.pfx
+*.p12
+*.ppk
+id_ed25519*
+id_rsa*
+envi
+envi.pub
