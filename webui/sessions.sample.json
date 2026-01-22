@@ -1,0 +1,141 @@
+{
+  "sessions": [
+    {
+      "id": "g2s0",
+      "title": "Group[2] Session[0]",
+      "type": "TAC",
+      "summary": {
+        "sni": "eim-demo-lab.eu.tac.thalescloud.io",
+        "version": "TLS 1.2",
+        "chosenCipher": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "sessionId": "78dbbc77e01e69c6409ed7ca6d68c6393ecb372da81a5b9c3e088b554c335140"
+      },
+      "handshake": {
+        "clientHello": {
+          "version": "TLS 1.2",
+          "random": "0b184b87db6c126752fe818a7f1f479bf1fd0b62236f6ca2b8cd77f880d437e8",
+          "sessionId": "",
+          "ciphers": ["Unknown_0x00AE","TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256","ECDHE_ECDSA_AES_256_CBC","ECDHE_ECDSA_AES_128_CBC"],
+          "extensions": ["SNI","max_fragment_length","supported_groups","ec_point_formats","signature_algorithms"],
+          "supportedGroups": ["secp256r1"],
+          "signatureAlgorithms": ["ecdsa_sha256"],
+          "ecPointFormats": ["uncompressed"]
+        },
+        "serverHello": {
+          "version": "TLS 1.2",
+          "random": "d1c4659709345e45408ac3d3f3c914f54074c7224e92feda444f574e47524401",
+          "sessionId": "78dbbc77e01e69c6409ed7ca6d68c6393ecb372da81a5b9c3e088b554c335140",
+          "cipher": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+          "extensions": ["max_fragment_length","ec_point_formats"]
+        }
+      },
+      "events": [
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"ClientHello"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerHello"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"Certificate"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerKeyExchange"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerHelloDone"},
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"ClientKeyExchange"},
+        {"dir":"SIM->ME","recordType":"ChangeCipherSpec"},
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"Finished"},
+        {"dir":"ME->SIM","recordType":"ChangeCipherSpec"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"Finished"},
+        {"dir":"ME->SIM","recordType":"Application Data"},
+        {"dir":"SIM->ME","recordType":"Alert"}
+      ],
+      "certificates": [
+        {
+          "subject": "CN=eim-demo-lab.eu.tac.thalescloud.io, OU=Thales DES, O=Thales, L=FR, C=FR",
+          "issuer": "CN=Thales DIS MCS TAC ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "validFrom": "2025-04-22T11:26:13",
+          "validTo": "2027-04-22T11:27:13",
+          "publicKey": "EC secp256r1",
+          "eku": ["clientAuth","serverAuth"],
+          "san": ["eim-demo-lab.eu.tac.thalescloud.io"]
+        },
+        {
+          "subject": "CN=Thales DIS MCS TAC ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "issuer": "CN=Thales DIS MCS ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "validFrom": "2023-11-20T17:25:11",
+          "validTo": "2033-12-31T09:10:41",
+          "publicKey": "EC secp256r1",
+          "eku": [],
+          "san": []
+        }
+      ],
+      "raw": {
+        "apdus": "(See tac_session_report.md RAW APDUs section for full content)"
+      },
+      "issues": ["Unknown offered cipher 0x00AE"]
+    },
+    {
+      "id": "g5s0",
+      "title": "Group[5] Session[0]",
+      "type": "TAC",
+      "summary": {
+        "sni": "eim-demo-lab.eu.tac.thalescloud.io",
+        "version": "TLS 1.2",
+        "chosenCipher": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "sessionId": "6c70a628b405efbb79766abbeecb307aa32ff2725b2107877ab86fc36b68008b"
+      },
+      "handshake": {
+        "clientHello": {
+          "version": "TLS 1.2",
+          "random": "0b184b87db6c126752fe818a7f1f479bf1fd0b62236f6ca2b8cd77f880d437e8",
+          "sessionId": "",
+          "ciphers": ["Unknown_0x00AE","TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256","ECDHE_ECDSA_AES_256_CBC","ECDHE_ECDSA_AES_128_CBC"],
+          "extensions": ["SNI","max_fragment_length","supported_groups","ec_point_formats","signature_algorithms"],
+          "supportedGroups": ["secp256r1"],
+          "signatureAlgorithms": ["ecdsa_sha256"],
+          "ecPointFormats": ["uncompressed"]
+        },
+        "serverHello": {
+          "version": "TLS 1.2",
+          "random": "5288712002d006ba7caa6023562ebecb4217167cd930acbd444f574e47524401",
+          "sessionId": "6c70a628b405efbb79766abbeecb307aa32ff2725b2107877ab86fc36b68008b",
+          "cipher": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+          "extensions": ["max_fragment_length","ec_point_formats"]
+        }
+      },
+      "events": [
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"ClientHello"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerHello"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"Certificate"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerKeyExchange"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"ServerHelloDone"},
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"ClientKeyExchange"},
+        {"dir":"SIM->ME","recordType":"ChangeCipherSpec"},
+        {"dir":"SIM->ME","recordType":"Handshake","handshakeType":"Finished"},
+        {"dir":"ME->SIM","recordType":"ChangeCipherSpec"},
+        {"dir":"ME->SIM","recordType":"Handshake","handshakeType":"Finished"},
+        {"dir":"ME->SIM","recordType":"Application Data"},
+        {"dir":"ME->SIM","recordType":"Application Data"},
+        {"dir":"SIM->ME","recordType":"Alert"}
+      ],
+      "certificates": [
+        {
+          "subject": "CN=eim-demo-lab.eu.tac.thalescloud.io, OU=Thales DES, O=Thales, L=FR, C=FR",
+          "issuer": "CN=Thales DIS MCS TAC ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "validFrom": "2025-04-22T11:26:13",
+          "validTo": "2027-04-22T11:27:13",
+          "publicKey": "EC secp256r1",
+          "eku": ["clientAuth","serverAuth"],
+          "san": ["eim-demo-lab.eu.tac.thalescloud.io"]
+        },
+        {
+          "subject": "CN=Thales DIS MCS TAC ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "issuer": "CN=Thales DIS MCS ECDSA CA, O=Thales DIS, L=Tours, C=FR, email=certificate.automation@thalesgroup.com",
+          "validFrom": "2023-11-20T17:25:11",
+          "validTo": "2033-12-31T09:10:41",
+          "publicKey": "EC secp256r1",
+          "eku": [],
+          "san": []
+        }
+      ],
+      "raw": {
+        "apdus": "(See tac_session_report.md RAW APDUs section for full content)"
+      },
+      "issues": ["Unknown offered cipher 0x00AE"]
+    }
+  ]
+}

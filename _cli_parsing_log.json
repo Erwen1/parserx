@@ -1,0 +1,103 @@
+{
+  "file": "HL7812_fallback_NOK.xti",
+  "severities": [
+    "WARNING"
+  ],
+  "since": null,
+  "until": null,
+  "category": [
+    "Location Status"
+  ],
+  "issues": [
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "No Service",
+      "trace_index": 403,
+      "timestamp": "11/06/2025 16:55:47:820.000000",
+      "raw_data": "80C200000CD60A190103820282811B0102",
+      "channel_id": null,
+      "command_details": "Status code: 1B0102"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "No Service",
+      "trace_index": 1039,
+      "timestamp": "11/06/2025 17:12:24:389.000000",
+      "raw_data": "80C200000CD60A190103820282811B0102",
+      "channel_id": null,
+      "command_details": "Status code: 1B0102"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "Limited Service",
+      "trace_index": 1147,
+      "timestamp": "11/06/2025 17:12:25:885.000000",
+      "raw_data": "80C200000CD60A190103820282811B0101",
+      "channel_id": null,
+      "command_details": "Status code: 1B0101"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "No Service",
+      "trace_index": 1149,
+      "timestamp": "11/06/2025 17:12:26:741.000000",
+      "raw_data": "80C200000CD60A190103820282811B0102",
+      "channel_id": null,
+      "command_details": "Status code: 1B0102"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "Limited Service",
+      "trace_index": 1161,
+      "timestamp": "11/06/2025 17:12:36:060.000000",
+      "raw_data": "80C200000CD60A190103820282811B0101",
+      "channel_id": null,
+      "command_details": "Status code: 1B0101"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "No Service",
+      "trace_index": 1163,
+      "timestamp": "11/06/2025 17:12:44:736.000000",
+      "raw_data": "80C200000CD60A190103820282811B0102",
+      "channel_id": null,
+      "command_details": "Status code: 1B0102"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "Limited Service",
+      "trace_index": 1175,
+      "timestamp": "11/06/2025 17:12:45:688.000000",
+      "raw_data": "80C200000CD60A190103820282811B0101",
+      "channel_id": null,
+      "command_details": "Status code: 1B0101"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "No Service",
+      "trace_index": 1209,
+      "timestamp": "11/06/2025 17:14:45:471.000000",
+      "raw_data": "80C200000CD60A190103820282811B0102",
+      "channel_id": null,
+      "command_details": "Status code: 1B0102"
+    },
+    {
+      "severity": "WARNING",
+      "category": "Location Status",
+      "message": "Limited Service",
+      "trace_index": 1211,
+      "timestamp": "11/06/2025 17:15:14:726.000000",
+      "raw_data": "80C200000CD60A190103820282811B0101",
+      "channel_id": null,
+      "command_details": "Status code: 1B0101"
+    }
+  ]
+}

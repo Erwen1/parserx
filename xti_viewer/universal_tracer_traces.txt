@@ -1,0 +1,691 @@
+--------------------------------------------------------------------------------
+APDU Command: MANAGE CHANNEL - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (A00000084455F1279166010101) - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: UNKNOWN - APDU Response
+--------------------------------------------------------------------------------
+APDU Command: MANAGE CHANNEL - APDU Response
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 910F - Command correctly executed, and 15 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+FETCH - FETCH - POLL INTERVAL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - POLL INTERVAL - SW: 9120 - Command correctly executed, and 32 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - OPEN CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - OPEN CHANNEL - SW: 9143 - Command correctly executed, and 67 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9143 - Command correctly executed, and 67 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 910D - Command correctly executed, and 13 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - CLOSE CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - CLOSE CHANNEL - SW: 9120 - Command correctly executed, and 32 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - OPEN CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - OPEN CHANNEL - SW: 9191 - Command correctly executed, and 145 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 918E - Command correctly executed, and 142 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 91CF - Command correctly executed, and 207 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9188 - Command correctly executed, and 136 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9131 - Command correctly executed, and 49 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 912E - Command correctly executed, and 46 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 910D - Command correctly executed, and 13 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - CLOSE CHANNEL
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - CLOSE CHANNEL - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - REFRESH
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+ISO 7816 Event
+--------------------------------------------------------------------------------
+Card Event: WARM RESET
+--------------------------------------------------------------------------------
+Protocol Type Selection Command
+--------------------------------------------------------------------------------
+Protocol Type Selection Response
+--------------------------------------------------------------------------------
+Protocol Event
+--------------------------------------------------------------------------------
+ISO 7816 Event
+--------------------------------------------------------------------------------
+SELECT FILE - MF (3F00) - SW: 6132
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE - EF_ELP (2F05) - SW: 611F
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+TERMINAL PROFILE - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (2F08) - SW: 611F
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (2F00) - SW: 6125
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ RECORD - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (A0000000871002F230FF018907020000) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+VERIFY PIN - SW: 63C3 - Number of retries left = 3
+--------------------------------------------------------------------------------
+UNBLOCK PIN - SW: 63CA - Number of retries left = 10
+--------------------------------------------------------------------------------
+SELECT FILE - EF_ICCID (2FE2) - SW: 611F
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - PROVIDE LOCAL INFORMATION
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - PROVIDE LOCAL INFORMATION - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_AD (7FFF/6FAD) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_SST (7FFF/6F38) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/7F66/6FD2) - SW: 6A82
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/7F66/5F40/4F44) - SW: 6A82
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6F56) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_IMSI (7FFF/6F07) - SW: 611F
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_ACC (7FFF/6F78) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_HPPLMN (7FFF/6F31) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6FE3) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6F73) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6F09) - SW: 611F
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6FE4) - SW: 6125
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ RECORD - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_FPLMN (7FFF/6F7B) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_FDN (7FFF/6F3B) - SW: 6124
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/7F66/5F30/4F34) - SW: 6A82
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9113 - Command correctly executed, and 19 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6FE8) - SW: 6A82
+--------------------------------------------------------------------------------
+FETCH - FETCH - TIMER MANAGEMENT
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - TIMER MANAGEMENT - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_OPLMNwACT (7FFF/6F61) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_PLMNwACT (7FFF/6F60) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+SELECT FILE - EF_SMSS (7FFF/6F43) - SW: 6121
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+READ BINARY - SW: 9111 - Command correctly executed, and 17 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SET UP EVENT LIST
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SET UP EVENT LIST - SW: 910F - Command correctly executed, and 15 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - POLL INTERVAL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - POLL INTERVAL - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+INTERNAL AUTHENTICATE - SW: 6135
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - PROVIDE LOCAL INFORMATION
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - PROVIDE LOCAL INFORMATION - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF/6FE3) - SW: 6122
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+UPDATE BINARY - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Location Status - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+FETCH - FETCH - OPEN CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - OPEN CHANNEL - SW: 9143 - Command correctly executed, and 67 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9143 - Command correctly executed, and 67 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 910D - Command correctly executed, and 13 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - CLOSE CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - CLOSE CHANNEL - SW: 9120 - Command correctly executed, and 32 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - OPEN CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - OPEN CHANNEL - SW: 9191 - Command correctly executed, and 145 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 918E - Command correctly executed, and 142 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 91CF - Command correctly executed, and 207 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 91F6 - Command correctly executed, and 246 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 91F6 - Command correctly executed, and 246 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 917E - Command correctly executed, and 126 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 91F6 - Command correctly executed, and 246 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9160 - Command correctly executed, and 96 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 912C - Command correctly executed, and 44 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 912C - Command correctly executed, and 44 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9131 - Command correctly executed, and 49 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+ENVELOPE Event Download - Data Available - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 9110 - Command correctly executed, and 16 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - RECEIVE DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - RECEIVE DATA - SW: 912E - Command correctly executed, and 46 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - SEND DATA
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - SEND DATA - SW: 910D - Command correctly executed, and 13 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - CLOSE CHANNEL
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - CLOSE CHANNEL - SW: 910B - Command correctly executed, and 11 byte(s) Proactive Command is available
+--------------------------------------------------------------------------------
+FETCH - FETCH - POLLING OFF
+--------------------------------------------------------------------------------
+TERMINAL RESPONSE - POLLING OFF - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------
+SELECT FILE -  (7FFF) - SW: 6145
+--------------------------------------------------------------------------------
+GET RESPONSE - SW: 9000 - Normal processing. Command correctly executed, and no response data
+--------------------------------------------------------------------------------
+APDU Command: STATUS - APDU Response
+--------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "tac_ips": [
+      "13.38.212.83",
+      "52.47.40.152",
+      "13.39.169.102"
+    ],
+    "dp_plus_ips": [
+      "34.8.202.126"
+    ],
+    "dns_ips": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ]
+  },
+  "scenarios": {
+    "Default": {
+      "sequence": [
+        "DNSbyME",
+        "DNS",
+        "DP+",
+        "TAC"
+      ],
+      "constraints": {
+        "max_gap_enabled": false,
+        "max_gap_seconds": 30,
+        "max_gap_on_unknown": "WARN",
+        "max_gap_on_violation": "FAIL"
+      }
+    },
+    "DownloadDirect": {
+      "sequence": [
+        {
+          "type": "DNSbyME",
+          "presence": "optional"
+        },
+        "DNS",
+        "DP+",
+        "TAC",
+        {
+          "type": "DNSbyME",
+          "presence": "optional"
+        },
+        {
+          "type": "DP+",
+          "presence": "optional"
+        }
+      ],
+      "constraints": {
+        "max_gap_enabled": false,
+        "max_gap_seconds": 30,
+        "max_gap_on_unknown": "WARN",
+        "max_gap_on_violation": "FAIL"
+      }
+    }
+  },
+  "selected_scenario": "DownloadDirect"
+}

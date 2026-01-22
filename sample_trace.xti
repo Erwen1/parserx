@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tracedata>
+    <traceitem protocol="ISO7816" type="apducommand" timestamp="2023-11-05T14:30:00">
+        <data rawhex="00A4040007A0000001510000" type="apducommand" />
+        <interpretation>
+            <interpretedresult content="SELECT FILE Command - Application AID">
+                <interpretedresult content="Command Details">
+                    <interpretedresult content="CLA = 00 (ISO/IEC 7816)" />
+                    <interpretedresult content="INS = A4 (SELECT FILE)" />
+                    <interpretedresult content="P1 = 04 (Select by DF name)" />
+                    <interpretedresult content="P2 = 00 (First or only occurrence)" />
+                </interpretedresult>
+                <interpretedresult content="Data Field">
+                    <interpretedresult content="Length = 07" />
+                    <interpretedresult content="AID = A0000001510000 (Visa Credit/Debit)" />
+                </interpretedresult>
+            </interpretedresult>
+        </interpretation>
+    </traceitem>
+    <traceitem protocol="ISO7816" type="apduresponse" timestamp="2023-11-05T14:30:01">
+        <data rawhex="6F1E840E315041592E5359532E4444463031A50C880200109001029000" type="apduresponse" />
+        <interpretation>
+            <interpretedresult content="SELECT FILE Response - Application Selected">
+                <interpretedresult content="File Control Information (FCI)">
+                    <interpretedresult content="FCI Template (6F)">
+                        <interpretedresult content="Dedicated File (DF) Name = 315041592E5359532E4444463031" />
+                        <interpretedresult content="FCI Proprietary Template (A5)" />
+                    </interpretedresult>
+                </interpretedresult>
+                <interpretedresult content="Status Words">
+                    <interpretedresult content="SW1 = 90 (Normal processing)" />
+                    <interpretedresult content="SW2 = 00 (No qualification)" />
+                </interpretedresult>
+            </interpretedresult>
+        </interpretation>
+    </traceitem>
+    <traceitem protocol="NFC" type="anticollision" timestamp="2023-11-05T14:29:58">
+        <data rawhex="26" type="anticollision" />
+        <interpretation>
+            <interpretedresult content="REQA (Request Type A)">
+                <interpretedresult content="Command = 26 (Short frame, 7 bits)" />
+                <interpretedresult content="Purpose = Wake up cards in IDLE state" />
+            </interpretedresult>
+        </interpretation>
+    </traceitem>
+    <traceitem protocol="NFC" type="response" timestamp="2023-11-05T14:29:59">
+        <data rawhex="0400" type="response" />
+        <interpretation>
+            <interpretedresult content="ATQA (Answer to Request Type A)">
+                <interpretedresult content="ATQA = 0400">
+                    <interpretedresult content="Bit Frame Anti-collision = 00" />
+                    <interpretedresult content="Proprietary coding = 04" />
+                    <interpretedresult content="ISO14443-4 compliant = Yes" />
+                </interpretedresult>
+            </interpretedresult>
+        </interpretation>
+    </traceitem>
+    <traceitem protocol="ISO7816" type="apducommand" timestamp="2023-11-05T14:30:02">
+        <data rawhex="80A8000002830000" type="apducommand" />
+        <interpretation>
+            <interpretedresult content="GET PROCESSING OPTIONS Command">
+                <interpretedresult content="Command Header">
+                    <interpretedresult content="CLA = 80 (Proprietary class)" />
+                    <interpretedresult content="INS = A8 (GET PROCESSING OPTIONS)" />
+                    <interpretedresult content="P1 = 00" />
+                    <interpretedresult content="P2 = 00" />
+                </interpretedresult>
+                <interpretedresult content="Command Data">
+                    <interpretedresult content="LC = 02 (Data length)" />
+                    <interpretedresult content="PDOL Data = 8300 (Terminal type, Transaction type)" />
+                </interpretedresult>
+            </interpretedresult>
+        </interpretation>
+    </traceitem>
+</tracedata>

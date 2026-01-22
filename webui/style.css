@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif; }
+
+#app { display: grid; grid-template-columns: 320px 1fr; height: 100vh; }
+
+aside#overview { border-right: 1px solid #e5e7eb; padding: 12px; overflow: auto; }
+aside#overview .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+aside#overview h2 { font-size: 16px; margin: 0; }
+aside#overview #session-list { list-style: none; padding: 0; margin: 0; }
+aside#overview #session-list li { padding: 8px 10px; border: 1px solid #e5e7eb; border-radius: 6px; margin-bottom: 8px; cursor: pointer; }
+aside#overview #session-list li.active { background: #eef6ff; border-color: #93c5fd; }
+aside#overview .meta { display: block; font-size: 12px; color: #6b7280; margin-top: 2px; }
+
+main#content { display: flex; flex-direction: column; height: 100%; }
+.tabs { display: flex; gap: 6px; padding: 8px; border-bottom: 1px solid #e5e7eb; }
+.tab { border: 1px solid #d1d5db; padding: 6px 10px; border-radius: 6px; background: #fff; cursor: pointer; }
+.tab.active { background: #111827; color: #fff; border-color: #111827; }
+
+.panel { display: none; padding: 12px; overflow: auto; height: 100%; }
+.panel.active { display: block; }
+
+.summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; }
+.summary-card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; }
+.badge { display: inline-block; padding: 2px 6px; font-size: 12px; border-radius: 999px; background: #f3f4f6; margin-right: 6px; }
+.badge.good { background: #ecfdf5; color: #065f46; }
+.badge.warn { background: #fff7ed; color: #9a3412; }
+.badge.bad { background: #fef2f2; color: #991b1b; }
+
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table th, .table td { border-bottom: 1px solid #e5e7eb; padding: 6px 8px; text-align: left; }
+.row-sim { background: #f0f9ff; }
+.row-me { background: #f0fdf4; }
+.row-alert { background: #fef2f2; }
+
+.raw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+pre { background: #0b1020; color: #e5e7eb; padding: 10px; border-radius: 8px; white-space: pre-wrap; }
+code.inline { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; }
+
+.tree { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 13px; }
+.tree dt { font-weight: 600; margin-top: 6px; }
+.tree dd { margin: 0 0 6px 12px; }
+
+.muted { color: #6b7280; }

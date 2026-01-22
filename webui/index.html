@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TLS Flow Viewer</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', theme: 'default' });
+  </script>
+</head>
+<body>
+  <div id="app">
+    <aside id="overview">
+      <div class="header">
+        <h2>Flow Overview</h2>
+        <button id="load-json">Load JSON</button>
+        <input id="file-input" type="file" accept="application/json" hidden />
+      </div>
+      <ul id="session-list"></ul>
+    </aside>
+
+    <main id="content">
+      <div class="tabs">
+        <button class="tab active" data-tab="tab-overview">Overview</button>
+        <button class="tab" data-tab="tab-timeline">Timeline</button>
+        <button class="tab" data-tab="tab-ladder">Ladder</button>
+        <button class="tab" data-tab="tab-handshake">Handshake</button>
+        <button class="tab" data-tab="tab-certs">Certificates</button>
+        <button class="tab" data-tab="tab-raw">Raw</button>
+        <button class="tab" data-tab="tab-alerts">Alerts</button>
+      </div>
+
+      <section id="tab-overview" class="panel active"></section>
+      <section id="tab-timeline" class="panel"></section>
+      <section id="tab-ladder" class="panel">
+        <div id="ladder" class="mermaid"></div>
+      </section>
+      <section id="tab-handshake" class="panel"></section>
+      <section id="tab-certs" class="panel"></section>
+      <section id="tab-raw" class="panel raw-grid">
+        <div>
+          <h3>APDUs</h3>
+          <pre id="apdus"></pre>
+        </div>
+        <div>
+          <h3>TLS Records</h3>
+          <pre id="records"></pre>
+        </div>
+      </section>
+      <section id="tab-alerts" class="panel"></section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
